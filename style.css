@@ -39,11 +39,21 @@ body{
 .navbar ul li a{
     text-decoration: none;
     color: white;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease-in;
 }
 
 
 .navbar ul li a:hover{
-    
+    color: tomato;
 }
 
+
+h1{
+    color: tomato;
+    font-size: 40px;
+    padding: 30px;
+    margin: 20px;
+}
 
